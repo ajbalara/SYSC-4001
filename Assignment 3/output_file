@@ -1,0 +1,4251 @@
+This is the producer
+
+CPU 0
+
+CPU 1
+
+CPU 2
+
+CPU 3
+Waiting for consumer threads to finish...
+PID: 1000, Policy: 0, Priority: 120, Execution Time: 6100, CPU Affinity: -1
+Assigned process pid 1000 to CPU 0
+PID: 1001, Policy: 0, Priority: 100, Execution Time: 4000, CPU Affinity: -1
+Assigned process pid 1001 to CPU 1
+PID: 1002, Policy: 2, Priority: 40, Execution Time: 5800, CPU Affinity: -1
+Assigned process pid 1002 to CPU 0
+PID: 1003, Policy: 1, Priority: 33, Execution Time: 9700, CPU Affinity: 2
+Assigned process pid 1003 to CPU 2
+PID: 1004, Policy: 0, Priority: 130, Execution Time: 6700, CPU Affinity: -1
+Assigned process pid 1004 to CPU 0
+PID: 1005, Policy: 0, Priority: 115, Execution Time: 5500, CPU Affinity: -1
+Assigned process pid 1005 to CPU 2
+PID: 1006, Policy: 2, Priority: 70, Execution Time: 4000, CPU Affinity: 0
+Assigned process pid 1006 to CPU 0
+PID: 1007, Policy: 2, Priority: 25, Execution Time: 2900, CPU Affinity: -1
+Assigned process pid 1007 to CPU 1
+PID: 1008, Policy: 1, Priority: 35, Execution Time: 6800, CPU Affinity: 3
+Assigned process pid 1008 to CPU 3
+PID: 1009, Policy: 2, Priority: 50, Execution Time: 7200, CPU Affinity: 1
+Assigned process pid 1009 to CPU 1
+PID: 1010, Policy: 1, Priority: 48, Execution Time: 8000, CPU Affinity: -1
+Assigned process pid 1010 to CPU 2
+PID: 1011, Policy: 0, Priority: 135, Execution Time: 5300, CPU Affinity: -1
+Assigned process pid 1011 to CPU 1
+PID: 1012, Policy: 0, Priority: 109, Execution Time: 2900, CPU Affinity: -1
+Assigned process pid 1012 to CPU 3
+PID: 1013, Policy: 0, Priority: 107, Execution Time: 6800, CPU Affinity: 3
+Assigned process pid 1013 to CPU 3
+PID: 1014, Policy: 1, Priority: 22, Execution Time: 5500, CPU Affinity: 2
+Assigned process pid 1014 to CPU 2
+PID: 1015, Policy: 0, Priority: 115, Execution Time: 5000, CPU Affinity: -1
+Assigned process pid 1015 to CPU 0
+PID: 1016, Policy: 0, Priority: 108, Execution Time: 7300, CPU Affinity: -1
+Assigned process pid 1016 to CPU 1
+PID: 1017, Policy: 0, Priority: 100, Execution Time: 3200, CPU Affinity: -1
+Assigned process pid 1017 to CPU 2
+PID: 1018, Policy: 0, Priority: 116, Execution Time: 7400, CPU Affinity: -1
+Assigned process pid 1018 to CPU 0
+PID: 1019, Policy: 0, Priority: 123, Execution Time: 3300, CPU Affinity: -1
+Assigned process pid 1019 to CPU 1
+CPU 0 rq0 has process pid 1002
+CPU 0 rq0 has process pid 1006
+CPU 0 rq1 has process pid 1000
+CPU 0 rq1 has process pid 1015
+CPU 0 rq1 has process pid 1018
+CPU 0 rq2 has process pid 1004
+CPU 1 rq0 has process pid 1007
+CPU 1 rq0 has process pid 1009
+CPU 1 rq1 has process pid 1001
+CPU 1 rq1 has process pid 1016
+CPU 1 rq1 has process pid 1019
+CPU 1 rq2 has process pid 1011
+CPU 2 rq0 has process pid 1003
+CPU 2 rq0 has process pid 1010
+CPU 2 rq0 has process pid 1014
+CPU 2 rq1 has process pid 1005
+CPU 2 rq1 has process pid 1017
+CPU 3 rq0 has process pid 1008
+CPU 3 rq1 has process pid 1012
+CPU 3 rq1 has process pid 1013
+
+CPU 3 recieved: 
+pid: 1008, 
+SP: 35, 
+DP: 0, 
+RT: 6800, 
+TS: 0, 
+ATS: 0, 
+CA: 3, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1002, 
+SP: 40, 
+DP: 0, 
+RT: 5800, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1003, 
+SP: 33, 
+DP: 0, 
+RT: 9700, 
+TS: 0, 
+ATS: 0, 
+CA: 2, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1007, 
+SP: 25, 
+DP: 0, 
+RT: 2900, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 7560, 
+TS: 2140, 
+ATS: 2140, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1010, 
+SP: 48, 
+DP: 0, 
+RT: 8000, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 3 returned: 
+pid: 1008, 
+SP: 35, 
+DP: 100, 
+RT: 4700, 
+TS: 2100, 
+ATS: 2100, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1008, 
+SP: 35, 
+DP: 100, 
+RT: 4700, 
+TS: 2100, 
+ATS: 2100, 
+CA: 3, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1007, 
+SP: 25, 
+DP: 100, 
+RT: 0, 
+TS: 2900, 
+ATS: 2900, 
+CA: 1, 
+SA: 0, 
+Done process pid 1007
+
+CPU 1 recieved: 
+pid: 1009, 
+SP: 50, 
+DP: 0, 
+RT: 7200, 
+TS: 0, 
+ATS: 0, 
+CA: 1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 6160, 
+TS: 1840, 
+ATS: 1840, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1014, 
+SP: 22, 
+DP: 0, 
+RT: 5500, 
+TS: 0, 
+ATS: 0, 
+CA: 2, 
+SA: 0, 
+
+CPU 3 returned: 
+pid: 1008, 
+SP: 35, 
+DP: 100, 
+RT: 2600, 
+TS: 2100, 
+ATS: 4200, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1008, 
+SP: 35, 
+DP: 100, 
+RT: 2600, 
+TS: 2100, 
+ATS: 4200, 
+CA: 3, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1002, 
+SP: 40, 
+DP: 100, 
+RT: 0, 
+TS: 5800, 
+ATS: 5800, 
+CA: 0, 
+SA: 0, 
+Done process pid 1002
+
+CPU 0 recieved: 
+pid: 1006, 
+SP: 70, 
+DP: 0, 
+RT: 4000, 
+TS: 0, 
+ATS: 0, 
+CA: 0, 
+SA: 0, 
+
+CPU 3 returned: 
+pid: 1008, 
+SP: 35, 
+DP: 100, 
+RT: 500, 
+TS: 2100, 
+ATS: 6300, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1008, 
+SP: 35, 
+DP: 100, 
+RT: 500, 
+TS: 2100, 
+ATS: 6300, 
+CA: 3, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1014, 
+SP: 22, 
+DP: 100, 
+RT: 3140, 
+TS: 2360, 
+ATS: 2360, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 7560, 
+TS: 2140, 
+ATS: 2140, 
+CA: 2, 
+SA: 7, 
+
+CPU 0 returned: 
+pid: 1006, 
+SP: 70, 
+DP: 100, 
+RT: 0, 
+TS: 4000, 
+ATS: 4000, 
+CA: 0, 
+SA: 0, 
+Done process pid 1006
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 0, 
+RT: 6100, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 3 returned: 
+pid: 1008, 
+SP: 35, 
+DP: 100, 
+RT: 0, 
+TS: 2100, 
+ATS: 8400, 
+CA: 3, 
+SA: 0, 
+Done process pid 1008
+
+CPU 3 recieved: 
+pid: 1012, 
+SP: 109, 
+DP: 0, 
+RT: 2900, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 5420, 
+TS: 2140, 
+ATS: 4280, 
+CA: 2, 
+SA: 4, 
+
+CPU 2 recieved: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 6160, 
+TS: 1840, 
+ATS: 1840, 
+CA: 2, 
+SA: 7, 
+
+CPU 1 returned: 
+pid: 1009, 
+SP: 50, 
+DP: 100, 
+RT: 0, 
+TS: 7200, 
+ATS: 7200, 
+CA: 1, 
+SA: 0, 
+Done process pid 1009
+
+CPU 1 recieved: 
+pid: 1001, 
+SP: 100, 
+DP: 0, 
+RT: 4000, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 125, 
+RT: 5700, 
+TS: 400, 
+ATS: 400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 0, 
+RT: 5000, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 3 returned: 
+pid: 1012, 
+SP: 109, 
+DP: 114, 
+RT: 2280, 
+TS: 620, 
+ATS: 620, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 0, 
+RT: 6800, 
+TS: 0, 
+ATS: 0, 
+CA: 3, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1001, 
+SP: 100, 
+DP: 105, 
+RT: 3200, 
+TS: 800, 
+ATS: 800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 0, 
+RT: 7300, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 120, 
+RT: 4500, 
+TS: 500, 
+ATS: 500, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 0, 
+RT: 7400, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 112, 
+RT: 6140, 
+TS: 660, 
+ATS: 660, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1012, 
+SP: 109, 
+DP: 114, 
+RT: 2280, 
+TS: 620, 
+ATS: 620, 
+CA: 3, 
+SA: 1, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 113, 
+RT: 6660, 
+TS: 640, 
+ATS: 640, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 0, 
+RT: 3300, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 4320, 
+TS: 1840, 
+ATS: 3680, 
+CA: 2, 
+SA: 4, 
+
+CPU 2 recieved: 
+
+CPU 0 returned: 
+pid: 1014, 
+pid: 1018, 
+SP: 22, 
+SP: 116, 
+DP: 100, 
+DP: 121, 
+RT: 3140, 
+TS: 2360, 
+RT: 6920, 
+ATS: 2360, 
+TS: 480, 
+CA: 2, 
+ATS: 480, 
+SA: 5, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 125, 
+RT: 5700, 
+TS: 400, 
+ATS: 400, 
+CA: 0, 
+SA: 1, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 128, 
+RT: 2960, 
+TS: 340, 
+ATS: 340, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1001, 
+SP: 100, 
+DP: 105, 
+RT: 3200, 
+TS: 800, 
+ATS: 800, 
+CA: 1, 
+SA: 1, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 5300, 
+TS: 400, 
+ATS: 800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 120, 
+RT: 4500, 
+TS: 500, 
+ATS: 500, 
+CA: 0, 
+SA: 1, 
+
+CPU 3 returned: 
+pid: 1012, 
+SP: 109, 
+DP: 100, 
+RT: 1660, 
+TS: 620, 
+ATS: 1240, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 112, 
+RT: 6140, 
+TS: 660, 
+ATS: 660, 
+CA: 3, 
+SA: 1, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 4000, 
+TS: 500, 
+ATS: 1000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 121, 
+RT: 6920, 
+TS: 480, 
+ATS: 480, 
+CA: 0, 
+
+CPU 1 returned: 
+SA: 1, 
+pid: 1001, 
+SP: 100, 
+DP: 100, 
+RT: 2400, 
+TS: 800, 
+ATS: 1600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 113, 
+RT: 6660, 
+TS: 640, 
+ATS: 640, 
+CA: 1, 
+SA: 2, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 5480, 
+TS: 660, 
+ATS: 1320, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1012, 
+SP: 109, 
+DP: 100, 
+RT: 1660, 
+TS: 620, 
+ATS: 1240, 
+CA: 3, 
+SA: 2, 
+
+CPU 2 returned: 
+pid: 1014, 
+SP: 22, 
+DP: 100, 
+RT: 780, 
+TS: 2360, 
+ATS: 4720, 
+CA: 2, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 6440, 
+TS: 480, 
+ATS: 960, 
+CA: 0, 
+SA: 1, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 5300, 
+TS: 400, 
+ATS: 800, 
+CA: 0, 
+SA: 2, 
+SA: 3, 
+
+CPU 2 recieved: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 5420, 
+TS: 2140, 
+ATS: 4280, 
+CA: 2, 
+SA: 9, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 6020, 
+TS: 640, 
+ATS: 1280, 
+CA: 1, 
+SA: 1, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 128, 
+RT: 2960, 
+TS: 340, 
+ATS: 340, 
+CA: 1, 
+SA: 1, 
+
+CPU 3 returned: 
+pid: 1012, 
+SP: 109, 
+DP: 100, 
+RT: 1040, 
+TS: 620, 
+ATS: 1860, 
+CA: 3, 
+SA: 1, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 5480, 
+TS: 660, 
+ATS: 1320, 
+CA: 3, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 4900, 
+TS: 400, 
+ATS: 1200, 
+CA: 0, 
+SA: 1, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 4000, 
+TS: 500, 
+ATS: 1000, 
+CA: 0, 
+SA: 2, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 2620, 
+TS: 340, 
+ATS: 680, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1001, 
+SP: 100, 
+DP: 100, 
+RT: 2400, 
+TS: 800, 
+ATS: 1600, 
+CA: 1, 
+SA: 2, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 4820, 
+TS: 660, 
+ATS: 1980, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1012, 
+SP: 109, 
+DP: 100, 
+RT: 1040, 
+TS: 620, 
+ATS: 1860, 
+CA: 3, 
+SA: 3, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 3500, 
+TS: 500, 
+ATS: 1500, 
+CA: 0, 
+SA: 1, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 6440, 
+TS: 480, 
+ATS: 960, 
+CA: 0, 
+SA: 3, 
+
+CPU 1 returned: 
+pid: 1001, 
+SP: 100, 
+DP: 100, 
+RT: 1600, 
+TS: 800, 
+ATS: 2400, 
+CA: 1, 
+SA: 1, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 6020, 
+TS: 640, 
+ATS: 1280, 
+CA: 1, 
+SA: 3, 
+
+CPU 2 returned: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 3280, 
+TS: 2140, 
+ATS: 6420, 
+CA: 2, 
+SA: 6, 
+
+CPU 2 recieved: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 4320, 
+TS: 1840, 
+ATS: 3680, 
+CA: 2, 
+SA: 10, 
+
+CPU 0 returned: 
+
+CPU 3 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 5960, 
+TS: 480, 
+ATS: 1440, 
+CA: 0, 
+SA: 2, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 4900, 
+TS: 400, 
+ATS: 1200, 
+CA: 0, 
+SA: 3, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 5380, 
+TS: 640, 
+ATS: 1920, 
+CA: 1, 
+SA: 2, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 2620, 
+TS: 340, 
+ATS: 680, 
+CA: 1, 
+SA: 2, 
+pid: 1012, 
+SP: 109, 
+DP: 100, 
+RT: 420, 
+TS: 620, 
+ATS: 2480, 
+CA: 3, 
+SA: 2, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 4820, 
+TS: 660, 
+ATS: 1980, 
+CA: 3, 
+SA: 1, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 2280, 
+TS: 340, 
+ATS: 1020, 
+CA: 1, 
+SA: 2, 
+
+CPU 1 recieved: 
+pid: 1001, 
+
+CPU 0 returned: 
+SP: 100, 
+DP: 100, 
+RT: 1600, 
+TS: 800, 
+pid: 1000, 
+ATS: 2400, 
+SP: 120, 
+CA: 1, 
+DP: 100, 
+SA: 3, 
+RT: 4500, 
+TS: 400, 
+ATS: 1600, 
+CA: 0, 
+SA: 2, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 3500, 
+TS: 500, 
+ATS: 1500, 
+CA: 0, 
+SA: 3, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 4160, 
+TS: 660, 
+ATS: 2640, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1012, 
+SP: 109, 
+DP: 100, 
+RT: 420, 
+TS: 620, 
+ATS: 2480, 
+CA: 3, 
+SA: 4, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 3000, 
+TS: 500, 
+ATS: 2000, 
+CA: 0, 
+SA: 2, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 5960, 
+TS: 480, 
+ATS: 1440, 
+CA: 0, 
+SA: 4, 
+
+CPU 1 returned: 
+pid: 1001, 
+SP: 100, 
+DP: 100, 
+RT: 800, 
+TS: 800, 
+ATS: 3200, 
+CA: 1, 
+SA: 2, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 5380, 
+TS: 640, 
+ATS: 1920, 
+CA: 1, 
+SA: 4, 
+
+CPU 2 returned: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 2480, 
+TS: 1840, 
+ATS: 5520, 
+CA: 2, 
+SA: 7, 
+
+CPU 0 returned: 
+
+CPU 2 recieved: 
+pid: 1014, 
+SP: 22, 
+DP: 100, 
+pid: 1018, 
+RT: 780, 
+SP: 116, 
+TS: 2360, 
+DP: 100, 
+ATS: 4720, 
+RT: 5480, 
+CA: 2, 
+TS: 480, 
+ATS: 1920, 
+SA: 9, 
+CA: 0, 
+SA: 3, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 4500, 
+TS: 400, 
+ATS: 1600, 
+CA: 0, 
+SA: 4, 
+
+CPU 3 returned: 
+pid: 1012, 
+SP: 109, 
+DP: 100, 
+RT: 0, 
+TS: 620, 
+ATS: 3100, 
+CA: 3, 
+SA: 3, 
+Done process pid 1012
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 4160, 
+TS: 660, 
+ATS: 2640, 
+CA: 3, 
+SA: 1, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 4740, 
+TS: 640, 
+ATS: 2560, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 2280, 
+TS: 340, 
+ATS: 1020, 
+CA: 1, 
+SA: 4, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 4100, 
+TS: 400, 
+ATS: 2000, 
+CA: 0, 
+SA: 4, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 3000, 
+TS: 500, 
+ATS: 2000, 
+CA: 0, 
+SA: 4, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 1940, 
+TS: 340, 
+ATS: 1360, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1001, 
+SP: 100, 
+DP: 100, 
+RT: 800, 
+TS: 800, 
+ATS: 3200, 
+CA: 1, 
+SA: 4, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 3500, 
+TS: 660, 
+ATS: 3300, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 100, 
+RT: 3500, 
+TS: 660, 
+ATS: 3300, 
+CA: 3, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 2500, 
+TS: 500, 
+ATS: 2500, 
+CA: 0, 
+SA: 4, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 5480, 
+TS: 480, 
+ATS: 1920, 
+CA: 0, 
+SA: 4, 
+
+CPU 1 returned: 
+pid: 1001, 
+SP: 100, 
+DP: 100, 
+RT: 0, 
+TS: 800, 
+ATS: 4000, 
+CA: 1, 
+SA: 3, 
+Done process pid 1001
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 4740, 
+TS: 640, 
+ATS: 2560, 
+CA: 1, 
+SA: 5, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 2840, 
+TS: 660, 
+ATS: 3960, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 2840, 
+TS: 660, 
+ATS: 3960, 
+CA: 3, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 5000, 
+TS: 480, 
+ATS: 2400, 
+CA: 0, 
+SA: 3, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 4100, 
+TS: 400, 
+ATS: 2000, 
+CA: 0, 
+SA: 6, 
+
+CPU 2 returned: 
+pid: 1014, 
+SP: 22, 
+DP: 100, 
+RT: 0, 
+TS: 2360, 
+ATS: 7080, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 4100, 
+TS: 640, 
+ATS: 3200, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 1940, 
+TS: 340, 
+ATS: 1360, 
+CA: 1, 
+SA: 5, 
+CA: 2, 
+SA: 6, 
+Done process pid 1014
+
+CPU 2 recieved: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 3280, 
+TS: 2140, 
+ATS: 6420, 
+CA: 2, 
+SA: 10, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 3700, 
+TS: 400, 
+ATS: 2400, 
+CA: 0, 
+SA: 5, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 2500, 
+TS: 500, 
+ATS: 2500, 
+CA: 0, 
+SA: 6, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 2180, 
+TS: 660, 
+ATS: 4620, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 2180, 
+TS: 660, 
+ATS: 4620, 
+CA: 3, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 1600, 
+TS: 340, 
+ATS: 1700, 
+CA: 1, 
+SA: 4, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 4100, 
+TS: 640, 
+ATS: 3200, 
+CA: 1, 
+SA: 4, 
+
+CPU 0 returned: 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 1520, 
+TS: 660, 
+ATS: 5280, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+pid: 1015, 
+DP: 111, 
+SP: 115, 
+RT: 1520, 
+DP: 100, 
+TS: 660, 
+RT: 2000, 
+ATS: 5280, 
+TS: 500, 
+CA: 3, 
+ATS: 3000, 
+SA: 0, 
+CA: 0, 
+SA: 5, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 5000, 
+TS: 480, 
+ATS: 2400, 
+CA: 0, 
+SA: 5, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 3460, 
+TS: 640, 
+ATS: 3840, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 1600, 
+TS: 340, 
+ATS: 1700, 
+CA: 1, 
+SA: 5, 
+
+CPU 2 returned: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 1140, 
+TS: 2140, 
+ATS: 8560, 
+CA: 2, 
+SA: 6, 
+
+CPU 2 recieved: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 2480, 
+TS: 1840, 
+ATS: 5520, 
+CA: 2, 
+SA: 10, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 4520, 
+TS: 480, 
+ATS: 2880, 
+CA: 0, 
+SA: 4, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 3700, 
+TS: 400, 
+ATS: 2400, 
+CA: 0, 
+SA: 7, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 1260, 
+TS: 340, 
+ATS: 2040, 
+CA: 1, 
+SA: 4, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 3460, 
+TS: 640, 
+ATS: 3840, 
+CA: 1, 
+SA: 4, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 109, 
+RT: 860, 
+TS: 660, 
+ATS: 5940, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 109, 
+RT: 860, 
+TS: 660, 
+ATS: 5940, 
+CA: 3, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 3300, 
+TS: 400, 
+ATS: 2800, 
+CA: 0, 
+SA: 6, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 2000, 
+TS: 500, 
+ATS: 3000, 
+CA: 0, 
+SA: 7, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 2820, 
+TS: 640, 
+ATS: 4480, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 1260, 
+TS: 340, 
+ATS: 2040, 
+CA: 1, 
+SA: 5, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 200, 
+TS: 660, 
+ATS: 6600, 
+CA: 3, 
+SA: 0, 
+
+CPU 3 recieved: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 200, 
+TS: 660, 
+ATS: 6600, 
+CA: 3, 
+SA: 0, 
+
+CPU 0 returned: 
+
+CPU 2 returned: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 640, 
+TS: 1840, 
+ATS: 7360, 
+CA: 2, 
+SA: 7, 
+
+CPU 2 recieved: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 1140, 
+TS: 2140, 
+ATS: 8560, 
+CA: 2, 
+SA: 8, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 920, 
+TS: 340, 
+ATS: 2380, 
+CA: 1, 
+SA: 4, 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+
+CPU 1 recieved: 
+RT: 1500, 
+TS: 500, 
+pid: 1016, 
+ATS: 3500, 
+CA: 0, 
+SP: 108, 
+SA: 6, 
+DP: 100, 
+RT: 2820, 
+TS: 640, 
+ATS: 4480, 
+
+CPU 0 recieved: 
+CA: 1, 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+SA: 4, 
+RT: 4520, 
+TS: 480, 
+ATS: 2880, 
+CA: 0, 
+SA: 6, 
+
+CPU 3 returned: 
+pid: 1013, 
+SP: 107, 
+DP: 111, 
+RT: 0, 
+TS: 660, 
+ATS: 7260, 
+CA: 3, 
+SA: 0, 
+Done process pid 1013
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 4040, 
+TS: 480, 
+ATS: 3360, 
+CA: 0, 
+SA: 6, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 3300, 
+TS: 400, 
+ATS: 2800, 
+CA: 0, 
+SA: 8, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 2180, 
+TS: 640, 
+ATS: 5120, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 920, 
+TS: 340, 
+ATS: 2380, 
+CA: 1, 
+SA: 5, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 580, 
+TS: 340, 
+ATS: 2720, 
+CA: 1, 
+
+CPU 0 returned: 
+SA: 4, 
+pid: 1000, 
+SP: 120, 
+
+CPU 1 recieved: 
+DP: 100, 
+pid: 1016, 
+RT: 2900, 
+SP: 108, 
+TS: 400, 
+DP: 100, 
+ATS: 3200, 
+RT: 2180, 
+CA: 0, 
+TS: 640, 
+SA: 7, 
+ATS: 5120, 
+CA: 1, 
+SA: 4, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 1500, 
+TS: 500, 
+ATS: 3500, 
+CA: 0, 
+SA: 7, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 1540, 
+TS: 640, 
+ATS: 5760, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 580, 
+TS: 340, 
+ATS: 2720, 
+CA: 1, 
+SA: 5, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 1000, 
+TS: 500, 
+ATS: 4000, 
+CA: 0, 
+SA: 6, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 4040, 
+TS: 480, 
+ATS: 3360, 
+CA: 0, 
+SA: 8, 
+
+CPU 2 returned: 
+pid: 1003, 
+SP: 33, 
+DP: 100, 
+RT: 0, 
+TS: 2140, 
+ATS: 10700, 
+CA: 2, 
+SA: 5, 
+Done process pid 1003
+
+CPU 2 recieved: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 640, 
+TS: 1840, 
+ATS: 7360, 
+CA: 2, 
+SA: 10, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 240, 
+TS: 340, 
+ATS: 3060, 
+CA: 1, 
+SA: 4, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 1540, 
+TS: 640, 
+ATS: 5760, 
+CA: 1, 
+SA: 4, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 3560, 
+TS: 480, 
+ATS: 3840, 
+CA: 0, 
+SA: 7, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 2900, 
+TS: 400, 
+ATS: 3200, 
+CA: 0, 
+SA: 9, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 2500, 
+TS: 400, 
+ATS: 3600, 
+CA: 0, 
+SA: 8, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 1000, 
+TS: 500, 
+ATS: 4000, 
+CA: 0, 
+SA: 8, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 900, 
+TS: 640, 
+ATS: 6400, 
+CA: 1, 
+SA: 3, 
+
+CPU 1 recieved: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 240, 
+TS: 340, 
+ATS: 3060, 
+CA: 1, 
+SA: 5, 
+
+CPU 2 returned: 
+pid: 1010, 
+SP: 48, 
+DP: 100, 
+RT: 0, 
+TS: 1840, 
+ATS: 9200, 
+CA: 2, 
+SA: 7, 
+Done process pid 1010
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 0, 
+RT: 5500, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1019, 
+SP: 123, 
+DP: 100, 
+RT: 0, 
+TS: 340, 
+ATS: 3400, 
+CA: 1, 
+SA: 4, 
+Done process pid 1019
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 900, 
+TS: 640, 
+ATS: 6400, 
+CA: 1, 
+SA: 4, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 500, 
+TS: 500, 
+ATS: 4500, 
+CA: 0, 
+SA: 7, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 3560, 
+TS: 480, 
+ATS: 3840, 
+CA: 0, 
+SA: 9, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 120, 
+RT: 5000, 
+TS: 500, 
+ATS: 500, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1017, 
+SP: 100, 
+DP: 0, 
+RT: 3200, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 260, 
+TS: 640, 
+ATS: 7040, 
+CA: 1, 
+SA: 2, 
+
+CPU 1 recieved: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 260, 
+TS: 640, 
+ATS: 7040, 
+CA: 1, 
+SA: 2, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 3080, 
+TS: 480, 
+ATS: 4320, 
+CA: 0, 
+SA: 6, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 2500, 
+TS: 400, 
+ATS: 3600, 
+CA: 0, 
+SA: 10, 
+
+CPU 2 returned: 
+pid: 1017, 
+SP: 100, 
+DP: 105, 
+RT: 2400, 
+TS: 800, 
+ATS: 800, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 120, 
+RT: 5000, 
+TS: 500, 
+ATS: 500, 
+CA: 2, 
+SA: 1, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 2100, 
+TS: 400, 
+ATS: 4000, 
+CA: 0, 
+SA: 9, 
+
+CPU 0 recieved: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 500, 
+TS: 500, 
+ATS: 4500, 
+CA: 0, 
+SA: 10, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 4500, 
+TS: 500, 
+ATS: 1000, 
+CA: 2, 
+SA: 1, 
+
+CPU 2 recieved: 
+pid: 1017, 
+SP: 100, 
+DP: 105, 
+RT: 2400, 
+TS: 800, 
+ATS: 800, 
+CA: 2, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1016, 
+SP: 108, 
+DP: 100, 
+RT: 0, 
+TS: 640, 
+ATS: 7680, 
+CA: 1, 
+SA: 1, 
+Done process pid 1016
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 0, 
+RT: 5300, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 5200, 
+TS: 100, 
+ATS: 100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 5200, 
+TS: 100, 
+ATS: 100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 5100, 
+TS: 100, 
+ATS: 200, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 5100, 
+TS: 100, 
+ATS: 200, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1015, 
+SP: 115, 
+DP: 100, 
+RT: 0, 
+TS: 500, 
+ATS: 5000, 
+CA: 0, 
+SA: 8, 
+Done process pid 1015
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 3080, 
+TS: 480, 
+ATS: 4320, 
+CA: 0, 
+SA: 8, 
+
+CPU 2 returned: 
+pid: 1017, 
+SP: 100, 
+DP: 100, 
+RT: 1600, 
+TS: 800, 
+ATS: 1600, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 4500, 
+TS: 500, 
+ATS: 1000, 
+CA: 2, 
+SA: 2, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 5000, 
+TS: 100, 
+ATS: 300, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 5000, 
+TS: 100, 
+ATS: 300, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 2600, 
+TS: 480, 
+ATS: 4800, 
+CA: 0, 
+SA: 7, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 2100, 
+TS: 400, 
+ATS: 4000, 
+CA: 0, 
+SA: 10, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 4000, 
+TS: 500, 
+ATS: 1500, 
+CA: 2, 
+SA: 1, 
+
+CPU 2 recieved: 
+pid: 1017, 
+SP: 100, 
+DP: 100, 
+RT: 1600, 
+TS: 800, 
+ATS: 1600, 
+CA: 2, 
+SA: 1, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4900, 
+TS: 100, 
+ATS: 400, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4900, 
+TS: 100, 
+ATS: 400, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4800, 
+TS: 100, 
+ATS: 500, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4800, 
+TS: 100, 
+ATS: 500, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 1700, 
+TS: 400, 
+ATS: 4400, 
+CA: 0, 
+SA: 9, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 2600, 
+TS: 480, 
+ATS: 4800, 
+CA: 0, 
+SA: 8, 
+
+CPU 2 returned: 
+pid: 1017, 
+SP: 100, 
+DP: 100, 
+RT: 800, 
+TS: 800, 
+ATS: 2400, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 4000, 
+TS: 500, 
+ATS: 1500, 
+CA: 2, 
+SA: 2, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4700, 
+TS: 100, 
+ATS: 600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4700, 
+TS: 100, 
+ATS: 600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4600, 
+TS: 100, 
+ATS: 700, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4600, 
+TS: 100, 
+ATS: 700, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 2120, 
+TS: 480, 
+ATS: 5280, 
+CA: 0, 
+SA: 7, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 1700, 
+TS: 400, 
+ATS: 4400, 
+CA: 0, 
+SA: 10, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 3500, 
+TS: 500, 
+ATS: 2000, 
+CA: 2, 
+SA: 1, 
+
+CPU 2 recieved: 
+pid: 1017, 
+SP: 100, 
+DP: 100, 
+RT: 800, 
+TS: 800, 
+ATS: 2400, 
+CA: 2, 
+SA: 1, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 100, 
+RT: 4500, 
+TS: 100, 
+ATS: 800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 100, 
+RT: 4500, 
+TS: 100, 
+ATS: 800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4400, 
+TS: 100, 
+ATS: 900, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4400, 
+TS: 100, 
+ATS: 900, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 1300, 
+TS: 400, 
+ATS: 4800, 
+CA: 0, 
+SA: 9, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 2120, 
+TS: 480, 
+ATS: 5280, 
+CA: 0, 
+SA: 8, 
+
+CPU 2 returned: 
+pid: 1017, 
+SP: 100, 
+DP: 100, 
+RT: 0, 
+TS: 800, 
+ATS: 3200, 
+CA: 2, 
+SA: 0, 
+Done process pid 1017
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 3500, 
+TS: 500, 
+ATS: 2000, 
+CA: 2, 
+SA: 2, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4300, 
+TS: 100, 
+ATS: 1000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4300, 
+TS: 100, 
+ATS: 1000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4200, 
+TS: 100, 
+ATS: 1100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4200, 
+TS: 100, 
+ATS: 1100, 
+CA: 1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 3000, 
+TS: 500, 
+ATS: 2500, 
+CA: 2, 
+SA: 1, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 3000, 
+TS: 500, 
+ATS: 2500, 
+CA: 2, 
+SA: 1, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 1640, 
+TS: 480, 
+ATS: 5760, 
+CA: 0, 
+SA: 7, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 1300, 
+TS: 400, 
+ATS: 4800, 
+CA: 0, 
+SA: 10, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4100, 
+TS: 100, 
+ATS: 1200, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4100, 
+TS: 100, 
+ATS: 1200, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4000, 
+TS: 100, 
+ATS: 1300, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 4000, 
+TS: 100, 
+ATS: 1300, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 900, 
+TS: 400, 
+ATS: 5200, 
+CA: 0, 
+SA: 8, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 1640, 
+TS: 480, 
+ATS: 5760, 
+CA: 0, 
+SA: 8, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 2500, 
+TS: 500, 
+ATS: 3000, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 100, 
+RT: 2500, 
+TS: 500, 
+ATS: 3000, 
+CA: 2, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3900, 
+TS: 100, 
+ATS: 1400, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3900, 
+TS: 100, 
+ATS: 1400, 
+CA: 1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 2000, 
+TS: 500, 
+ATS: 3500, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 2000, 
+TS: 500, 
+ATS: 3500, 
+CA: 2, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 1160, 
+TS: 480, 
+ATS: 6240, 
+CA: 0, 
+SA: 7, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 900, 
+TS: 400, 
+ATS: 5200, 
+CA: 0, 
+SA: 9, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3800, 
+TS: 100, 
+ATS: 1500, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3800, 
+TS: 100, 
+ATS: 1500, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3700, 
+TS: 100, 
+ATS: 1600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3700, 
+TS: 100, 
+ATS: 1600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3600, 
+TS: 100, 
+ATS: 1700, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3600, 
+TS: 100, 
+ATS: 1700, 
+CA: 1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 1500, 
+TS: 500, 
+ATS: 4000, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 1500, 
+TS: 500, 
+ATS: 4000, 
+CA: 2, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 500, 
+TS: 400, 
+ATS: 5600, 
+CA: 0, 
+SA: 8, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 1160, 
+TS: 480, 
+ATS: 6240, 
+CA: 0, 
+SA: 8, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3500, 
+TS: 100, 
+ATS: 1800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3500, 
+TS: 100, 
+ATS: 1800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3400, 
+TS: 100, 
+ATS: 1900, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3400, 
+TS: 100, 
+ATS: 1900, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 680, 
+TS: 480, 
+ATS: 6720, 
+CA: 0, 
+SA: 8, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 500, 
+TS: 400, 
+ATS: 5600, 
+CA: 0, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 1000, 
+TS: 500, 
+ATS: 4500, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 1000, 
+TS: 500, 
+ATS: 4500, 
+CA: 2, 
+SA: 0, 
+SA: 9, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3300, 
+TS: 100, 
+ATS: 2000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3300, 
+TS: 100, 
+ATS: 2000, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 100, 
+TS: 400, 
+ATS: 6000, 
+CA: 0, 
+SA: 8, 
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 680, 
+TS: 480, 
+ATS: 6720, 
+CA: 0, 
+SA: 9, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 500, 
+TS: 500, 
+ATS: 5000, 
+CA: 2, 
+SA: 0, 
+
+CPU 2 recieved: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 500, 
+TS: 500, 
+ATS: 5000, 
+CA: 2, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3200, 
+TS: 100, 
+ATS: 2100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3200, 
+TS: 100, 
+ATS: 2100, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 200, 
+TS: 480, 
+ATS: 7200, 
+CA: 0, 
+SA: 8, 
+
+CPU 0 recieved: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 100, 
+TS: 400, 
+ATS: 6000, 
+CA: 0, 
+SA: 9, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3100, 
+TS: 100, 
+ATS: 2200, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3100, 
+TS: 100, 
+ATS: 2200, 
+CA: 1, 
+SA: 0, 
+
+CPU 2 returned: 
+pid: 1005, 
+SP: 115, 
+DP: 119, 
+RT: 0, 
+TS: 500, 
+ATS: 5500, 
+CA: 2, 
+SA: 0, 
+Done process pid 1005
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3000, 
+TS: 100, 
+ATS: 2300, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 3000, 
+TS: 100, 
+ATS: 2300, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2900, 
+TS: 100, 
+ATS: 2400, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2900, 
+TS: 100, 
+ATS: 2400, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1000, 
+SP: 120, 
+DP: 100, 
+RT: 0, 
+TS: 400, 
+ATS: 6400, 
+CA: 0, 
+SA: 8, 
+Done process pid 1000
+
+CPU 0 recieved: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 200, 
+TS: 480, 
+ATS: 7200, 
+CA: 0, 
+SA: 9, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2800, 
+TS: 100, 
+ATS: 2500, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2800, 
+TS: 100, 
+ATS: 2500, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 2700, 
+TS: 100, 
+ATS: 2600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 2700, 
+TS: 100, 
+ATS: 2600, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1018, 
+SP: 116, 
+DP: 100, 
+RT: 0, 
+TS: 480, 
+ATS: 7680, 
+CA: 0, 
+SA: 8, 
+Done process pid 1018
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 0, 
+RT: 6700, 
+TS: 0, 
+ATS: 0, 
+CA: -1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2600, 
+TS: 100, 
+ATS: 2700, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2600, 
+TS: 100, 
+ATS: 2700, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 6500, 
+TS: 200, 
+ATS: 200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 6500, 
+TS: 200, 
+ATS: 200, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2500, 
+TS: 100, 
+ATS: 2800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2500, 
+TS: 100, 
+ATS: 2800, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 6300, 
+TS: 200, 
+ATS: 400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 6300, 
+TS: 200, 
+ATS: 400, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 2400, 
+TS: 100, 
+ATS: 2900, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 2400, 
+TS: 100, 
+ATS: 2900, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2300, 
+TS: 100, 
+ATS: 3000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2300, 
+TS: 100, 
+ATS: 3000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2200, 
+TS: 100, 
+ATS: 3100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2200, 
+TS: 100, 
+ATS: 3100, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 6100, 
+TS: 200, 
+ATS: 600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 6100, 
+TS: 200, 
+ATS: 600, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2100, 
+TS: 100, 
+ATS: 3200, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2100, 
+TS: 100, 
+ATS: 3200, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 5900, 
+TS: 200, 
+ATS: 800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 5900, 
+TS: 200, 
+ATS: 800, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2000, 
+TS: 100, 
+ATS: 3300, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 2000, 
+TS: 100, 
+ATS: 3300, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 5700, 
+TS: 200, 
+ATS: 1000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 5700, 
+TS: 200, 
+ATS: 1000, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1900, 
+TS: 100, 
+ATS: 3400, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1900, 
+TS: 100, 
+ATS: 3400, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 5500, 
+TS: 200, 
+ATS: 1200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 5500, 
+TS: 200, 
+ATS: 1200, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1800, 
+TS: 100, 
+ATS: 3500, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1800, 
+TS: 100, 
+ATS: 3500, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 5300, 
+TS: 200, 
+ATS: 1400, 
+CA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1700, 
+TS: 100, 
+ATS: 3600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1700, 
+TS: 100, 
+ATS: 3600, 
+CA: 1, 
+SA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 5300, 
+TS: 200, 
+ATS: 1400, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1600, 
+TS: 100, 
+ATS: 3700, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1600, 
+TS: 100, 
+ATS: 3700, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 120, 
+RT: 5100, 
+TS: 200, 
+ATS: 1600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 120, 
+RT: 5100, 
+TS: 200, 
+ATS: 1600, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1500, 
+TS: 100, 
+ATS: 3800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1500, 
+TS: 100, 
+ATS: 3800, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 4900, 
+TS: 200, 
+ATS: 1800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 4900, 
+TS: 200, 
+ATS: 1800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 4700, 
+TS: 200, 
+ATS: 2000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 4700, 
+TS: 200, 
+ATS: 2000, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1400, 
+TS: 100, 
+ATS: 3900, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1400, 
+TS: 100, 
+ATS: 3900, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 121, 
+RT: 1300, 
+TS: 100, 
+ATS: 4000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 121, 
+RT: 1300, 
+TS: 100, 
+ATS: 4000, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 4500, 
+TS: 200, 
+ATS: 2200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 4500, 
+TS: 200, 
+ATS: 2200, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1200, 
+TS: 100, 
+ATS: 4100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1200, 
+TS: 100, 
+ATS: 4100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 1100, 
+TS: 100, 
+ATS: 4200, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 1100, 
+TS: 100, 
+ATS: 4200, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 4300, 
+TS: 200, 
+ATS: 2400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 4300, 
+TS: 200, 
+ATS: 2400, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 1000, 
+TS: 100, 
+ATS: 4300, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+
+CPU 0 returned: 
+SP: 135, 
+pid: 1004, 
+DP: 139, 
+SP: 130, 
+RT: 1000, 
+TS: 100, 
+DP: 134, 
+ATS: 4300, 
+RT: 4100, 
+CA: 1, 
+TS: 200, 
+SA: 0, 
+ATS: 2600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 4100, 
+TS: 200, 
+ATS: 2600, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 136, 
+RT: 900, 
+TS: 100, 
+ATS: 4400, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 136, 
+RT: 900, 
+TS: 100, 
+ATS: 4400, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3900, 
+TS: 200, 
+ATS: 2800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3900, 
+TS: 200, 
+ATS: 2800, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 800, 
+TS: 100, 
+ATS: 4500, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 800, 
+TS: 100, 
+ATS: 4500, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 133, 
+RT: 3700, 
+TS: 200, 
+ATS: 3000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 133, 
+RT: 3700, 
+TS: 200, 
+ATS: 3000, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 700, 
+TS: 100, 
+ATS: 4600, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 700, 
+TS: 100, 
+ATS: 4600, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3500, 
+TS: 200, 
+ATS: 3200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3500, 
+TS: 200, 
+ATS: 3200, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 600, 
+TS: 100, 
+ATS: 4700, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 138, 
+RT: 600, 
+TS: 100, 
+ATS: 4700, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3300, 
+TS: 200, 
+ATS: 3400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3300, 
+TS: 200, 
+ATS: 3400, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 500, 
+TS: 100, 
+ATS: 4800, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 500, 
+TS: 100, 
+ATS: 4800, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3100, 
+TS: 200, 
+ATS: 3600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 3100, 
+TS: 200, 
+ATS: 3600, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 400, 
+TS: 100, 
+ATS: 4900, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 400, 
+TS: 100, 
+ATS: 4900, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2900, 
+TS: 200, 
+ATS: 3800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2900, 
+TS: 200, 
+ATS: 3800, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 300, 
+TS: 100, 
+ATS: 5000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 300, 
+TS: 100, 
+ATS: 5000, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 200, 
+TS: 100, 
+ATS: 5100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+
+CPU 0 returned: 
+SP: 135, 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 2700, 
+TS: 200, 
+ATS: 4000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 2700, 
+TS: 200, 
+ATS: 4000, 
+CA: 0, 
+SA: 0, 
+DP: 139, 
+RT: 200, 
+TS: 100, 
+ATS: 5100, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 100, 
+RT: 100, 
+TS: 100, 
+ATS: 5200, 
+CA: 1, 
+SA: 0, 
+
+CPU 1 recieved: 
+pid: 1011, 
+SP: 135, 
+DP: 100, 
+RT: 100, 
+TS: 100, 
+ATS: 5200, 
+CA: 1, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2500, 
+TS: 200, 
+ATS: 4200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2500, 
+TS: 200, 
+ATS: 4200, 
+CA: 0, 
+SA: 0, 
+
+CPU 1 returned: 
+pid: 1011, 
+SP: 135, 
+DP: 139, 
+RT: 0, 
+TS: 100, 
+ATS: 5300, 
+CA: 1, 
+SA: 0, 
+Done process pid 1011
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2300, 
+TS: 200, 
+ATS: 4400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2300, 
+TS: 200, 
+ATS: 4400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2100, 
+TS: 200, 
+ATS: 4600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 2100, 
+TS: 200, 
+ATS: 4600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1900, 
+TS: 200, 
+ATS: 4800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1900, 
+TS: 200, 
+ATS: 4800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1700, 
+TS: 200, 
+ATS: 5000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1700, 
+TS: 200, 
+ATS: 5000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1500, 
+TS: 200, 
+ATS: 5200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1500, 
+TS: 200, 
+ATS: 5200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 1300, 
+TS: 200, 
+ATS: 5400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 135, 
+RT: 1300, 
+TS: 200, 
+ATS: 5400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1100, 
+TS: 200, 
+ATS: 5600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 1100, 
+TS: 200, 
+ATS: 5600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 900, 
+TS: 200, 
+ATS: 5800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 900, 
+TS: 200, 
+ATS: 5800, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 700, 
+TS: 200, 
+ATS: 6000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 700, 
+TS: 200, 
+ATS: 6000, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 500, 
+TS: 200, 
+ATS: 6200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 500, 
+TS: 200, 
+ATS: 6200, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 300, 
+TS: 200, 
+ATS: 6400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 300, 
+TS: 200, 
+ATS: 6400, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 100, 
+TS: 200, 
+ATS: 6600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 recieved: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 100, 
+TS: 200, 
+ATS: 6600, 
+CA: 0, 
+SA: 0, 
+
+CPU 0 returned: 
+pid: 1004, 
+SP: 130, 
+DP: 134, 
+RT: 0, 
+TS: 200, 
+ATS: 6800, 
+CA: 0, 
+SA: 0, 
+Done process pid 1004
+All done

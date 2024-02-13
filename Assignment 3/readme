@@ -1,0 +1,14 @@
+Assignment #3
+Written by: Anand Balaram 101217776
+
+This readme will explain how to use the program.
+
+This folder contains 1 source code file for the program as well as a csv file which contains the process data used by the program.
+
+There is a script called run, which when run will compile the program and run it.
+
+To run the program, open the terminal within the assignment folder and type ./run and press enter.
+
+The program should read the contents of the csv file to get the data for the processes and then create 5 threads - 1 producer and 4 consumers (CPUs). The program will run the 5 threads and then join them and terminate at the end.
+
+This folder also contains a file called output_file which contains the terminal output that should be printed by the program
