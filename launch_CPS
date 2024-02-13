@@ -1,0 +1,2 @@
+gcc CPS.c -o CPS
+./CPS

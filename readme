@@ -1,0 +1,10 @@
+Assignment #1 - CPS program
+Written by: Anand Balaram 101217776
+
+This readme will explain how to use the CPS program.
+
+This folder contains the source code files for the servers.
+
+There are 2 server programs, ecg_server and image_server. These must be running in seperate terminals before the running the CPS. This is to emulate how in a real world application, the servers will be running before and independant of the local clinics launching their CPS program.
+
+This folder contains a script called "launch_CPS", which when run will compile and run the CPS program.
