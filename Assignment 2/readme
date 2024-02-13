@@ -1,0 +1,16 @@
+Assignment #2
+Written by: Anand Balaram 101217776
+
+This readme will explain how to use the program.
+
+This folder contains the source code files for the server, producer and consumer as well as the input and output text files.
+
+There is a script called compile which when run will compile all the programs.
+
+There are 3 programs, server, producer and consumer. They should be run in that order so that the server can recieve the message to create the keys for the semaphores and shared memory.
+
+To run the programs, open 3 seperate terminals within the assignment folder and type ./compile in any one of them to compile all the programs. After the programs have all been compiled, type ./ followed directly by the program name, and then press enter, to run that program. Note that the programs should be run in the order mentioned above.
+
+The program should copy the contents of input_file to output_file. Note that while the contents of input_file may be changed to whatever the user desires, the string "Done file" is used to indicate to the consumer that the end of the file has been reached. This means that if a line in the input_file is exactly "Done file" (nothing more, nothing less), it will cause the consumer to terminate early.
+
+The program will create semaphores, shared memory and a message queue and then delete them when the program terminates.
